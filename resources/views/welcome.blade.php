@@ -50,8 +50,8 @@
                         
                     <div class="box @if($x != 1)shadow @endif">
                         <div class="@if(($i+$x)%2 == 0 && $x != 1) bg-white @endif">
-                            <div style="height: 150px; width: 150px; padding-top: 25px">
-                                <div this_column="{{$i}}" id="r{{$x-1}}c{{$i}}" class="mx-auto text-center @if($x == 1) button @else cell @endif" style="height: 100px; width: 100px; border: 2px solid gray; border-radius: 50%; @if($x == 1)background-color: #9ae6b4; @endif">
+                            <div style="height: 120px; width: 120px; padding-top: 12.5px">
+                                <div this_column="{{$i}}" id="r{{$x-1}}c{{$i}}" class="mx-auto text-center @if($x == 1) button @else cell @endif" style="height: 100px; width: 100px; border: 1px solid gray; border-radius: 50%; @if($x == 1)background-color: #9ae6b4; @endif">
                                     @if($x != 1)
                                         r{{$x-1}}c{{$i}}
                                     @endif

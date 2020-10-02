@@ -120,6 +120,8 @@ $( document ).ready(function() {
                             window.location.reload();
                         }
                     }
+                }else{
+                    corrects=1;
                 }
             }
             // break;
